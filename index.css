@@ -1,0 +1,33 @@
+/* Styling for the body to set font, background image, color, and text alignment */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif; /* Font family for different platforms */
+    background-image: url("images/table.png"); /* Background image representing a casino table */
+    background-size: cover; /* Cover the entire background with the image */
+    font-weight: bold; /* Bold font weight */
+    color: white; /* White text color */
+    text-align: center; /* Center-align all text */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: goldenrod; /* Goldenrod color for the heading */
+}
+
+/* Styling for the message paragraph to make the text italic */
+#message-el {
+    font-style: italic; /* Italic text style */
+}
+
+/* General button styling for layout and appearance */
+button {
+    color: #016f32; /* Dark green text color */
+    width: 150px; /* Button width */
+    background: goldenrod; /* Goldenrod background color */
+    padding-top: 5px; /* Padding above button text */
+    padding-bottom: 5px; /* Padding below button text */
+    font-weight: bold; /* Bold font weight */
+    border: none; /* No border around buttons */
+    border-radius: 2px; /* Slightly rounded corners */
+    margin-bottom: 2px; /* Space below each button */
+    margin-top: 2px; /* Space above each button */
+}
